@@ -1,0 +1,82 @@
+body {
+    background-color: #c97719;
+}
+
+.container {
+    /* width: 800px; */
+    width: 80%;
+    margin: auto;
+    background-color: rgb(231, 168, 126);
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+a {
+    /* tambahan */
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+
+.cover {
+    height: 400px;
+    /* background-image: url(/img\ Takkenal\ makakenalan.jpeg) */
+    background-image: url(/img/gambar-animasi-2-orang-19.jpg);
+}
+
+.isi {
+    display: flex;
+    flex-wrap: 20px;
+    padding: 10px;
+}
+
+.sidebar {
+    margin: 10px;
+}
+
+.sidebar p,
+.sidebar h4 {
+    text-align: justify;
+}
+
+.box {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.content h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.content h4 {
+    margin-left: 20px;
+}
+
+.content p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgb(228, 92, 38);
+    text-align: center;
+    color: rgb(24, 18, 11);
+    margin-top: 20px;
+    /* tambahan */
+    padding: 10px;
+}
+
+.footer {
+    font-size: 18px;
+}
